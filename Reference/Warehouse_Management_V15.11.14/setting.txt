@@ -1,0 +1,5 @@
+CURRENT_YEAR_DATA>2015<
+UPDATE_FILE_NAME>Update<
+PATH>D:\Client<
+FILE_NAME>Warehouse_Management<
+OLD_FILE_NAME>Store Management System<

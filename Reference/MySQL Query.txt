@@ -1,0 +1,43 @@
+CREATE TABLE `warehouse_exim_data`.`01`(
+  
+`EX_IM_CODE` VARCHAR(45) NULL,
+
+`NO` VARCHAR(9) NULL,
+  
+`ITEM_CODE` VARCHAR(45) NULL,
+  
+`PART_NAME` VARCHAR(45) NULL,
+  
+`MAKER` VARCHAR(45) NULL,
+  
+`MAKER_CODE` VARCHAR(45) NULL,
+  
+`LOT_SIZE` VARCHAR(45) NULL,
+  
+`UNIT` VARCHAR(45) NULL,
+  
+`REQUEST` VARCHAR(45) NULL,
+  
+`ACTUAL` VARCHAR(45) NULL,
+  
+`BALANCE` VARCHAR(45) NULL,
+  
+`IQA` VARCHAR(45) NULL);
+*******************************************************************************************
+select table_name from information_schema.tables where TABLE_SCHEMA ='warehouse_exim_data'
+*******************************************************************************************
+CREATE TABLE `warehouse_exim_data`.`time` (
+  
+`TIME` VARCHAR(12) NOT NULL,
+  
+`EX_IM_CODE` VARCHAR(45) NOT NULL,
+  
+PRIMARY KEY (`TIME`, `EX_IM_CODE`));
+*******************************************************************************************
+update warehouse_exim_data.`01` 
+
+set ACTUAL =ACTUAL+'1000', 
+
+BALANCE= ACTUAL-REQUEST 
+
+where ITEM_CODE='TNS130409T';
