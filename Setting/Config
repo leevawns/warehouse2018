@@ -1,0 +1,9 @@
+[SERVER]
+DSN Path = "server.dsn"
+User = "ASTI-WH"
+Password = "ASTI-WH-PASSWORD"
+
+[LOCAL]
+DSN Path = "local.dsn"
+User = "root"
+Password = "25021993"
