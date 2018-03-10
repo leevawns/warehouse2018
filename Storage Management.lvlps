@@ -17,3 +17,11 @@ Cache_Path[Path] Line0002 = "A-B71A-423D-9AE9-E5EFB078AD7D}.txt"
 Cache_Path[Path] Line0001 = "/C/Users/WIN7/AppData/Local/Temp/AB_Cache_{B0514F7"
 Cache_Path[Path] Line0002 = "4-789A-43B5-A7F4-93FC7E1842F6}.txt"
 
+[AB_Cache_{CDD4F097-5460-4388-A214-99B5ED298249}]
+Cache_Path[Path] Line0001 = "/C/Users/PC/AppData/Local/Temp/AB_Cache_{CDD4F097-"
+Cache_Path[Path] Line0002 = "5460-4388-A214-99B5ED298249}.txt"
+
+[AB_Cache_{4AC11268-0B94-4497-867F-9509075D9FBD}]
+Cache_Path[Path] Line0001 = "/C/Users/PC/AppData/Local/Temp/AB_Cache_{4AC11268-"
+Cache_Path[Path] Line0002 = "0B94-4497-867F-9509075D9FBD}.txt"
+
